@@ -2,7 +2,7 @@ package main
 
 type testStruct struct {
 	Field1 bool
-	Field2 string
+	Field2 int
 }
 
 type testInterface interface {
