@@ -1,7 +1,7 @@
 package main
 
 type testStruct struct {
-	Field1 bool
+	Field1 int
 	Field2 int
 }
 
