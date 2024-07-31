@@ -6,7 +6,7 @@ type testStruct struct {
 
 type testInterface interface {
 	Hallo(string) bool
-	Bye(string) int
+	Bye(int) int
 }
 
 func main() {
