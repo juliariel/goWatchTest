@@ -5,7 +5,7 @@ type testStruct struct {
 }
 
 type testInterface interface {
-	Hallo(string) bool
+	Hallo(int) bool
 	Bye(int) int
 }
 
