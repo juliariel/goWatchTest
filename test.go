@@ -11,6 +11,15 @@ type testInterface interface {
 	Bye(int) int
 }
 
+type MyInterface interface {
+   Func1(int)string
+}
+
+type iface interface {
+   MyInterface
+   bla(int) bool
+}
+
 func main() {
 	println("Hello World")
 }
