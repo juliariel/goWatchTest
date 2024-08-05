@@ -2,11 +2,11 @@ package main
 
 type testStruct struct {
 	Field1 int
-	Field2 void
+	Field2 int
 }
 
 type testInterface interface {
-	Hallo(int) string
+	Hallo(int) int
 	Bye(int) int
 }
 
