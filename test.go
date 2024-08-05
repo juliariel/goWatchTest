@@ -19,7 +19,7 @@ type iface interface {
    bla(int) bool
 }
 
-func testfunc(int test1, int test2) {
+func testfunc(test1 int, test2 int) {
 	println("HI")
 }
 
