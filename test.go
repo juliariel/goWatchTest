@@ -8,7 +8,7 @@ type testStruct struct {
 type testInterface interface {
 	Hallo(int) string
 	
-	Bye(int) int
+	Bye(int) string
 }
 
 type MyInterface interface {
