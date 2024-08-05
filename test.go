@@ -19,6 +19,11 @@ type iface interface {
    bla(int) bool
 }
 
+func testfunc(int test1, int test2) {
+	println("HI")
+}
+
 func main() {
 	println("Hello World")
+	testfunc(1, 2)
 }
