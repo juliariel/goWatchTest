@@ -11,7 +11,7 @@ type testInterface interface {
 }
 
 type MyInterface interface {
-   Func1(int)string
+   Func1(int)int
 }
 
 type iface interface {
