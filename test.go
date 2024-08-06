@@ -16,7 +16,7 @@ type MyInterface interface {
 
 type iface interface {
    MyInterface
-   bla(int) bool
+   bla(int) int
 }
 
 func testfunc(test1 int, test2 int) {
