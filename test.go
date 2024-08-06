@@ -8,7 +8,7 @@ type testStruct2 struct {
 type testStruct struct {
 	Field1 string
 	Field2 int
-	testStruct2
+	innerstruct testStruct2
 }
 
 type testInterface interface {
