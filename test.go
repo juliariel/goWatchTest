@@ -1,8 +1,14 @@
 package main
 
+type testStruct2 struct {
+	Field3 int
+	Field4 int
+}
+
 type testStruct struct {
 	Field1 int
 	Field2 int
+	testStruct2
 }
 
 type testInterface interface {
