@@ -21,8 +21,8 @@ type MyInterface interface {
 }
 
 type iface interface {
-   MyInterface
    bla(int) int
+   MyInterface
 }
 
 func testfunc(test1 int, test2 int) {
