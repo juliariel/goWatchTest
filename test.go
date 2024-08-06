@@ -6,7 +6,7 @@ type testStruct2 struct {
 }
 
 type testStruct struct {
-	Field1 string
+	Field1 int
 	Field2 int
 	innerstruct testStruct2
 }
