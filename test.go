@@ -17,6 +17,7 @@ type MyInterface interface {
 type iface interface {
    bla(int) int
    MyInterface
+   AnyInterface
 }
 
 func testfunc(test1 int, test2 int) {
