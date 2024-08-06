@@ -1,18 +1,12 @@
 package main
 
-type testStruct2 struct {
-	Field3 int
-	Field4 int
-}
-
 type testStruct struct {
 	Field1 int
 	Field2 int
-	innerstruct testStruct2
 }
 
 type testInterface interface {
-	Hallo() int
+	Hallo() string
 	Bye(int) int
 }
 
