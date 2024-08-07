@@ -26,6 +26,9 @@ type iface interface {
    AnyInterface
 }
 
+type ghost interface {
+}
+
 func testfunc(test1 int, test2 int) {
 	println("HI")
 }
