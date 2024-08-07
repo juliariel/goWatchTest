@@ -2,7 +2,7 @@ package main
 
 type testStruct2 struct {
 	Field3 int
-	Field4 int
+	Field4 string
 }
 
 type testStruct struct {
