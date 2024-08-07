@@ -12,12 +12,12 @@ type testStruct struct {
 }
 
 type testInterface interface {
-	Hallo() int
-	Bye(int) int
+	Hallo() string
+	Bye(int) bool
 }
 
 type MyInterface interface {
-   Func1(int) int
+   Func1(int) string
 }
 
 type iface interface {
