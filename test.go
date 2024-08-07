@@ -26,6 +26,18 @@ type iface interface {
    AnyInterface
 }
 
+type animal interface {
+	cat() string
+	dog()
+	TigerInterface
+}
+
+type person interface {
+	firstperson(int)
+	lastperson()
+	animal
+}
+
 type ghost interface {
 }
 
