@@ -27,15 +27,19 @@ type iface interface {
 }
 
 type animal interface {
+	rabbit(string)
 	cat() string
 	dog()
 	TigerInterface
-	MyInterface
+	ghost
 }
 
 type person interface {
-	firstperson(int)
-	lastperson()
+	firstperson(int, string, bool)
+	lastperson() int, string, bool
+	specialperson(int, string) bool, int
+	oldperson(int) bool
+	PersonInterface
 	animal
 }
 
