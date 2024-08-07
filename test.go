@@ -30,6 +30,7 @@ type animal interface {
 	cat() string
 	dog()
 	TigerInterface
+	MyInterface
 }
 
 type person interface {
