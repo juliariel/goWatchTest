@@ -36,8 +36,8 @@ type animal interface {
 
 type person interface {
 	firstperson(int, string, bool)
-	lastperson() int, string, bool
-	specialperson(int, string) bool, int
+	lastperson() (int, string, bool)
+	specialperson(int, string) (bool, int)
 	oldperson(int) bool
 	PersonInterface
 	animal
