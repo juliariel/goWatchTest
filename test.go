@@ -12,7 +12,7 @@ type testStruct struct {
 }
 
 type testInterface interface {
-	Hallo() string
+	Hallo() int
 	Bye(int) int
 }
 
