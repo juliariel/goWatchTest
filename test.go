@@ -20,7 +20,7 @@ type MyInterface interface {
    Func1(int) string
 }
 
-type MyInterface interface
+type person interface
 
 type iface interface {
    bla(int) int
