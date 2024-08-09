@@ -20,6 +20,8 @@ type MyInterface interface {
    Func1(int) string
 }
 
+type MyInterface interface
+
 type iface interface {
    bla(int) int
    MyInterface
